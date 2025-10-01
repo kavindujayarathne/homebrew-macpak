@@ -2,7 +2,7 @@ class Macpak < Formula
   desc "Interactive Homebrew helper + leftover zapper for non-brew apps"
   homepage "https://github.com/kavindujayarathne/macpak"
   url "https://github.com/kavindujayarathne/macpak/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "479ffb0e079656ed6287e3ba42d975e5edd8e98465b598ac4e41d147c8eebb25"
+  sha256 "156383fea2cc6267a4d84bb966a46ab72fa803f045f685019eee613d1f1a5896"
   license "MIT"
   head "https://github.com/kavindujayarathne/macpak.git", branch: "main"
 
@@ -11,7 +11,8 @@ class Macpak < Formula
   def install
     libexec.install "lib", "bin/macpak"
     (bin/"macpak").write_env_script libexec/"macpak", {
-      :MACPAK_VERSION => version
+      MACPAK_VERSION: version.to_s,
+      MACPAK_LIBDIR:  "#{libexec}/lib"
     }
 
     bash_completion.install "completions/macpak"
