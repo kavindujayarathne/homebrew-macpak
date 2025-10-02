@@ -1,8 +1,8 @@
 class Macpak < Formula
   desc "Interactive Homebrew helper + leftover zapper for non-brew apps"
   homepage "https://github.com/kavindujayarathne/macpak"
-  url "https://github.com/kavindujayarathne/macpak/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d538c95e5d852672f1415438d72765e455bf3b3cbb1b81213dbddefe1b3f82a0"
+  url "https://github.com/kavindujayarathne/macpak/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "23809ed186fefeacdabd2c1d6ccd08d282c6622465aa6548d13d910b9aa742cf"
   license "MIT"
   head "https://github.com/kavindujayarathne/macpak.git", branch: "main"
 
