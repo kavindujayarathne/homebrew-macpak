@@ -5,8 +5,7 @@ This is the official [Homebrew tap](https://docs.brew.sh/Taps) for [macpak](http
 ## Installation
 
 ```bash
-brew tap kavindujayarathne/macpak
-brew install --formula macpak
+brew install --formula kavindujayarathne/macpak/macpak
 ```
 
 ## Install from HEAD
@@ -14,3 +13,9 @@ brew install --formula macpak
 ```bash
 brew install --HEAD macpak
 ```
+
+## Docs
+
+- [Documentation](https://kavindujayarathne.com/blogs/macpak-documentation)
+- [Story behind macpak](https://kavindujayarathne.com/blogs/journey-of-my-first-cli-tool)
+

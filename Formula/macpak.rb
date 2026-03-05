@@ -29,6 +29,12 @@ class Macpak < Formula
       If your shell already sources completions, these will be picked up automatically.
       For additional setup details, see the official Homebrew shell completion guide:
         https://docs.brew.sh/Shell-Completion
+
+      Documentation:
+        https://kavindujayarathne.com/blogs/macpak-documentation
+
+      Story behind macpak:
+        https://kavindujayarathne.com/blogs/journey-of-my-first-cli-tool
     EOS
   end
 
