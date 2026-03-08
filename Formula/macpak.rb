@@ -34,7 +34,7 @@ class Macpak < Formula
         https://kavindujayarathne.com/blogs/macpak-documentation
 
       Story behind macpak:
-        https://kavindujayarathne.com/blogs/journey-of-my-first-cli-tool
+        https://kavindujayarathne.com/blogs/journey-of-macpak
     EOS
   end
 
